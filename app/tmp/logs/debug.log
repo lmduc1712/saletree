@@ -1,0 +1,440 @@
+2016-01-07 10:54:33 Notice: Notice (8): Undefined index: trogiang in [/var/www/clients/client1/web1/web/tss/app/View/ModuleClasses/index.ctp, line 169]
+Trace:
+include - APP/View/ModuleClasses/index.ctp, line 169
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+AppController::render() - APP/Controller/AppController.php, line 121
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2016-01-07 10:54:35 Notice: Notice (8): Undefined index: trogiang in [/var/www/clients/client1/web1/web/tss/app/View/ModuleClasses/view.ctp, line 43]
+Trace:
+include - APP/View/ModuleClasses/view.ctp, line 43
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+AppController::render() - APP/Controller/AppController.php, line 121
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2016-01-07 10:54:41 Notice: Notice (8): Undefined index: trogiang in [/var/www/clients/client1/web1/web/tss/app/View/ModuleClasses/index.ctp, line 169]
+Trace:
+include - APP/View/ModuleClasses/index.ctp, line 169
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+AppController::render() - APP/Controller/AppController.php, line 121
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2016-01-07 10:55:15 Notice: Notice (8): Undefined index: trogiang in [/var/www/clients/client1/web1/web/tss/app/View/ModuleClasses/view.ctp, line 43]
+Trace:
+include - APP/View/ModuleClasses/view.ctp, line 43
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+AppController::render() - APP/Controller/AppController.php, line 121
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2016-01-07 10:55:19 Notice: Notice (8): Undefined index: trogiang in [/var/www/clients/client1/web1/web/tss/app/View/ModuleClasses/index.ctp, line 169]
+Trace:
+include - APP/View/ModuleClasses/index.ctp, line 169
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+AppController::render() - APP/Controller/AppController.php, line 121
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2016-01-07 10:55:29 Notice: Notice (8): Undefined index: trogiang in [/var/www/clients/client1/web1/web/tss/app/View/ModuleClasses/index.ctp, line 169]
+Trace:
+include - APP/View/ModuleClasses/index.ctp, line 169
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+AppController::render() - APP/Controller/AppController.php, line 121
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2016-01-07 10:56:03 Notice: Notice (8): Undefined index: trogiang in [/var/www/clients/client1/web1/web/tss/app/View/ModuleClasses/index.ctp, line 169]
+Trace:
+include - APP/View/ModuleClasses/index.ctp, line 169
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+AppController::render() - APP/Controller/AppController.php, line 121
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2016-01-07 10:56:05 Notice: Notice (8): Undefined index: trogiang in [/var/www/clients/client1/web1/web/tss/app/View/ModuleClasses/view.ctp, line 43]
+Trace:
+include - APP/View/ModuleClasses/view.ctp, line 43
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+AppController::render() - APP/Controller/AppController.php, line 121
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2016-01-25 21:06:57 Notice: Notice (8): Undefined index: trogiang in [/var/www/clients/client1/web1/web/tss/app/View/ModuleClasses/index.ctp, line 169]
+Trace:
+include - APP/View/ModuleClasses/index.ctp, line 169
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+AppController::render() - APP/Controller/AppController.php, line 121
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2016-02-19 19:32:37 Debug: Notice (8): Undefined index: trogiang in [C:\xampp\htdocs\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-19 19:37:39 Debug: Notice (8): Undefined index: trogiang in [C:\xampp\htdocs\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:21:28 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:22:25 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:30:44 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:31:42 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:31:42 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:32:43 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:32:43 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:32:46 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\view.ctp, line 43]
+Trace:
+include - APP\View\ModuleClasses\view.ctp, line 43
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:33:52 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:33:52 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:33:57 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\view.ctp, line 43]
+Trace:
+include - APP\View\ModuleClasses\view.ctp, line 43
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 09:33:57 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\view.ctp, line 43]
+Trace:
+include - APP\View\ModuleClasses\view.ctp, line 43
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 11:26:38 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 11:26:38 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 11:26:42 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\view.ctp, line 43]
+Trace:
+include - APP\View\ModuleClasses\view.ctp, line 43
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 11:26:53 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 11:26:53 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-23 11:26:55 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\view.ctp, line 43]
+Trace:
+include - APP\View\ModuleClasses\view.ctp, line 43
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-24 09:21:53 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-24 09:21:53 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-24 09:29:46 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-02-24 09:29:46 Debug: Notice (8): Undefined index: trogiang in [E:\web\tss\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-03-07 16:22:49 Debug: Notice (8): Undefined index: trogiang in [E:\web\tree-sale\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-03-07 16:22:49 Debug: Notice (8): Undefined index: trogiang in [E:\web\tree-sale\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-03-07 16:22:56 Debug: Notice (8): Undefined index: trogiang in [E:\web\tree-sale\app\View\ModuleClasses\view.ctp, line 43]
+Trace:
+include - APP\View\ModuleClasses\view.ctp, line 43
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-03-07 16:23:03 Debug: Notice (8): Undefined index: trogiang in [E:\web\tree-sale\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-03-07 16:23:03 Debug: Notice (8): Undefined index: trogiang in [E:\web\tree-sale\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-03-07 16:23:22 Debug: Notice (8): Undefined index: trogiang in [E:\web\tree-sale\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2016-03-07 16:23:22 Debug: Notice (8): Undefined index: trogiang in [E:\web\tree-sale\app\View\ModuleClasses\index.ctp, line 169]
+Trace:
+include - APP\View\ModuleClasses\index.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+AppController::render() - APP\Controller\AppController.php, line 121
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+

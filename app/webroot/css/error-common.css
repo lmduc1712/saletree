@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 6, 2015, 10:14:06 PM
+    Author     : Administrator
+*/
+body {
+    background: #c4deff url(images/body-bg.gif) repeat;
+}
+
+#ribbon {
+    width: 726px;
+    height: 311px;
+    margin: 0 auto 0 auto;
+    background: url(images/ribbon.png) no-repeat;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+
+#ribbon p {
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1.92em;
+    width: 465px;
+    margin: 135px auto 0 auto;
+}
+
+#ribbon-sm {
+    width: 300px;
+    height: 128px;
+    margin: 0 auto 0 auto;
+    background: url(images/ribbon.png) no-repeat;
+    background-size: 300px 128px;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+
+#ribbon-sm p {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.92em;
+    width: 192px;
+    margin: 56px auto 0 auto;
+}

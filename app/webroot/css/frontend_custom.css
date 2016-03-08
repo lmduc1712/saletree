@@ -1,0 +1,23 @@
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clr {
+	clear: both;
+}
+
+.text-center {
+	text-align: center;
+	}
+	
+.text-right {
+	text-align: right;
+	}
+	
+.margin10 {
+	margin: 0 10px;
+	}

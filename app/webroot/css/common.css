@@ -1,0 +1,255 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: normal;
+}
+
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.txtleft{
+    text-align: left;
+}
+
+.txtright{
+    text-align: right;
+}
+
+.txtcenter{
+    text-align: center;
+}
+
+.required{
+    color: red;
+}
+
+.btn-logout{
+    margin-top: 7px;
+}
+
+.form-horizontal .control-label{
+    text-align: left;
+}
+
+.form-horizontal .button-wrap{
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.form-horizontal .button-wrap .btn{
+    margin-right: 15px;
+}
+
+/* overide bootstrap */
+.panel-default>.panel-heading{
+    background-color: #428bca;
+    color: white;
+}
+
+.table thead{
+    background-color: #387ACE;
+    color: white;
+}
+
+.pagination{
+    margin: 10px 0;
+}
+.need-field{
+    color: red;
+    font-size: large;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.margin-top-7{
+    margin-top: 7px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ================= */
+.search-result{
+    line-height: 30px;
+}
+
+.hr-separate{
+    height: 2px;
+    background-color: #387ACE;
+    margin-bottom: 10px;
+}
+
+.scrollable{
+    overflow: auto;
+    width: 70px; /* adjust this width depending to amount of text to display */
+    height: 80px; /* adjust height depending on number of options to display */
+    border: 1px silver solid;
+}
+
+.scrollable select{
+    border: none;
+}
+
+.form-search label {
+    width: 150px;
+}
+.form-search .form-group {
+    padding-bottom: 18px;
+}
+.form-search input.input-large {
+    width: 362px;
+}
+span.attention {
+    color: red;
+}
+.form-search .form-buttons input, .form-search .form-buttons a {
+    margin-right: 5px;
+}
+.page-detail dt {
+    float: left;
+    width: 150px;
+    margin-bottom: 18px;
+}
+.page-detail dd {
+    margin-bottom: 18px;
+    margin-left: 150px;
+}
+
+/* ========= disable ime ============ */
+.half-width{
+    ime-mode: disabled;
+}
+
+/* ========== separate symbol ============ */
+.separate-symbol {
+    line-height: 34px;
+    padding: 0 10px
+}
+.guide-text-format {
+    line-height: 34px;
+    float: left;
+}
+
+.upload-image-area .btn-action-area .btn {
+    margin-right: 10px;
+}
+
+.upload-image-area .img-thumbnail {
+    padding: 0;
+    background-color: #ddd;
+    margin-right: 15px;
+    width: 162px;
+    height: 162px;
+}
+
+/* ============ provider form ============ */
+.provider-form .label-payment-method {
+    margin: 0 15px 0 3px;
+}
+
+
+/*============ lunch option area =============*/
+.lunch-option-price {
+    padding: 6px 0 6px 6px;
+    width: 60px;
+}
+.currency-symbol {
+    line-height: 34px;
+    margin-left: 5px;
+}
+.input-time {
+    width: 100px;
+    float: left;
+}
+
+.form-search-label {
+    margin-top:10px;
+    width: 110px;
+}
+
+.input-date {
+    width: 150px;
+    float: left;
+}
+
+/*============ special article assign lunch =========*/
+#table_list_lunch_wrapper .top {
+    overflow: hidden;
+}
+
+#table_list_lunch_wrapper .title {
+    float: left;
+    margin: 5px 0;
+    line-height: 32px;
+}
+
+#table_list_lunch_wrapper .pagination {
+    margin: 5px 0;
+}
+
+.titlebar {
+    padding: 10px;
+    text-align: center;
+    background: #428BCA;
+    color: white;
+}
+
+th {
+    vertical-align: inherit !important;
+}
+
+th a {
+    color: white;
+}
+
+.margin-bottom {
+    margin-bottom: 10px !important;
+}
+
+.margin-right {
+    margin-right: 10px !important;
+}
+
+.padding-top-10 {
+    padding-top: 10px !important;
+}
+
+label {
+    margin-top: 7px;
+    vertical-align: inherit;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.level-table td {
+    /*vertical-align: middle !important;*/
+    /*font-weight: bold;*/
+}
+
+.level-table td input[type=radio] {
+    /*margin: 10px;*/
+}
+/*tr:hover {
+    background: #0088cc;
+}*/
+
+table td {
+        background: transparent;
+    }
+    .table-striped>tbody>tr:nth-child(odd)>td:hover, .table-striped>tbody>tr:nth-child(odd)>th {
+        /*background-color: blue;*/
+    }
+    .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+        background-color: transparent;
+    }

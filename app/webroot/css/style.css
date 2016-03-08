@@ -1,0 +1,1008 @@
+@charset "utf-8";
+
+
+
+body {
+    margin: 0;
+    font-family:'axis std','メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+}
+
+.clear_b {
+    clear: both;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1040px;
+    background: #ffffff;
+}
+nav, section, summary {
+    display: block;
+}
+
+.attention{
+    color: #aa0000;
+}
+
+.message{
+    color: #aa0000;
+}
+
+/* header
+ *************************************************/
+header {
+    margin: 0 auto;
+}
+header h1 {
+    float: left;
+    margin: 0 0 0 30px;
+}
+header nav ul.list {
+    list-style: none;
+    display: table;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+header nav ul.list li.list_inner {
+    /*margin-right: 15px;
+    float: left;*/
+    margin-top: 10px;
+    text-align: -webkit-match-parent;
+}
+header nav .list .list_inner .hover {
+    display: block;
+    position: relative;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: #925b5b;
+    border-right: 1px solid #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+header nav .list .list_inner .hover.disabled {
+    background-color: #C3C3C3;
+}
+  
+
+/***** ログアウト、お友達を紹介 *****/
+header .headerlinks{
+    clear: both;
+    margin-bottom: 10px;
+}
+
+header #friend a,
+header #logout a,
+header #profile a {
+    float: right;
+    padding-right: 20px;
+    color: #440000;
+    text-decoration: underline;
+}
+
+header #mypage-txt{
+    float: left;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+header #friend a:hover,
+header #logout a:hover,
+header #profile a:hover {
+    color: #440000;
+    text-decoration: none;
+}
+
+/* main
+ *************************************************/
+main {
+    overflow: hidden;
+    width: 100%;
+    background: #ffffff;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main p {
+    margin: 0 auto;
+}
+
+/* footer
+ *************************************************/
+footer .top-link{
+    margin-top: 20px;
+}
+
+footer .top-link a {
+    float: right;
+    display: block;
+    margin-left: 18px;
+    text-decoration: underline;
+}
+
+footer .top-link a#to_top {
+    color: #fff;
+    text-decoration: none;
+    background: #440000;
+    padding: 1px 18px;
+}
+
+footer .footer-navbar {
+    overflow: hidden;
+    background: #440000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer .footer-navbar a {
+    color: #fff;
+}
+
+footer nav ul {
+    list-style: none;
+    font-size: 13px;
+    margin:0 0 40px;
+}
+footer nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}
+
+footer .footer-navbar p {
+    margin: 0;
+    font-size: 10px;
+}
+
+/* ログイン画面
+ *************************************************/
+#login #buttonArea {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 600px;
+}
+#login #buttonArea .entry{
+    float: left;
+    width: 277px;
+    height: 200px;
+    overflow: auto;
+    padding: 5px;
+    //border: solid 1px #000000;
+    border-right: none;
+}
+#login #buttonArea .login{
+    float: right;
+    width: 310px;
+    height: 220px;
+    padding: 5px;
+    border: solid 1px #000000;
+}
+
+#login #buttonArea .entry input[type=submit],
+#login #buttonArea .login input[type=submit] {
+    background: #440000;
+    outline: 8px solid #440000;
+    border:1px solid #ffffff;
+    color: #ffffff;
+    width:150px;
+    height: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#login #buttonArea .login table {
+    margin: 0 auto;
+}
+#login #buttonArea .login table th {
+    width: 150px;
+    text-align: right;
+    vertical-align: middle;
+    padding: 5px;
+}
+#login #buttonArea .login table td {
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+#login input[type=submit],
+#login input[type=text],
+#login input[type=password] {
+    width: 200px;
+}
+
+
+
+
+/* TOP画面
+ *************************************************/
+#top p {
+    text-align: left;
+}
+#top .friend {
+    float: right;
+    margin-right: 20px;
+}
+#top .friend a {
+    color: #440000;
+}
+#top .message {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 35px 0 0 60px;
+}
+
+#top #point-area{
+    overflow:hidden;
+    margin:30px 60px 40px;
+    border-bottom: 1px solid #000;
+}
+
+#top #point-area>div{
+    float: left;
+}
+
+#top #point {
+    text-align: left;
+    font-size: 25px;
+    color: red;
+}
+
+#top #point-area button{
+    width: 166px;
+    height: 30px;
+    border: solid 1px #aaaaaa;
+}
+
+
+/***** 会員の方へのお知らせ *****/
+#top #news {
+    clear: both;
+    width: 600px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#top #news p {
+    margin-bottom: 5px;
+}
+#top #news div {
+    overflow-y:scroll;
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid;
+}
+#top #news dl {
+    margin: 0;
+    padding:5px;
+}
+#top #news dl dt{
+
+}
+#top #news dl dd{
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px dashed;
+}
+
+
+/* 新規会員登録画面
+ *************************************************/
+#entry {
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#entry{
+    border-top: solid 1px #e8e4d9;
+    width: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#entry .message {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#entry .tutorial-txt{
+    width: 800px;
+    margin: 0 auto 10px auto;
+}
+
+#entry table{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: left;
+    border-collapse: collapse;
+}
+#entry table th{
+    width: 200px;
+    height: 24px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: solid 1px #ffffff;
+    background-color: #eeeeee;
+    color: #555555;
+    font-size: 14px;
+}
+#entry table td{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+#entry input{
+    border: solid 1px #aaaaaa;
+}
+#entry textarea{
+    width: 500px;
+    border: solid 1px #aaaaaa;
+}
+#entry input[type=text], #entry input[type=password]{
+    font-size: 14px;
+    height: 24px;
+    margin: 5px;
+}
+
+#entry .input_address{
+    float: left;
+}
+
+#entry .contact_btns{
+    width: 400px;
+    margin: 0 auto;
+}
+#entry .filter_btns{
+    overflow: hidden;
+}
+#entry .contact_btn{
+    float: left;
+    margin-right: 10px;
+}
+#entry .contact_btn input[type="submit"], #entry .contact_btn input[type="reset"], #entry .contact_btn button{
+    width: 166px;
+    height: 30px;
+    border: solid 1px #aaaaaa;
+}
+
+
+/* 商品リクエスト画面
+ *************************************************/
+#request {
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#request{
+    border-top: solid 1px #e8e4d9;
+    width: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#request .message {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+#request table{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: left;
+    border-collapse: collapse;
+}
+#request table th{
+    width: 200px;
+    height: 24px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: solid 1px #ffffff;
+    background-color: #eeeeee;
+    color: #555555;
+    font-size: 14px;
+}
+#request table td{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+#request input{
+    border: solid 1px #aaaaaa;
+}
+#request textarea{
+    width: 500px;
+    border: solid 1px #aaaaaa;
+}
+#request input[type=text]{
+    font-size: 14px;
+    height: 24px;
+    margin: 5px;
+}
+#request .contact_btns{
+    width: 400px;
+    margin: 0 auto;
+}
+#request .contact_btn{
+    float: left;
+    margin: 10px;
+}
+#request .contact_btn input[type=submit],
+#request .contact_btn input[type=reset]{
+    width: 166px;
+    height: 30px;
+    border: solid 1px #aaaaaa;
+}
+
+/* ポイント交換画面
+ *************************************************/
+#point .topic img{
+    vertical-align: bottom;
+}
+#point .photo_line {
+    width: 980px;
+    margin: 30px auto;;
+}
+#point .photo_line .photo_block {
+    float: left;
+    margin-right: 25px;
+}
+#point .photo_line .photo_box {
+    width: 162px;
+    height: 162px;
+    border: 4px solid #e4e5ea;
+    overflow: hidden;
+    position: relative;
+}
+#point .photo_line .photo_box img {
+    width: 162px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+#point .photo_line .photo_box p{
+    width: 152px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0px 5px;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #000000;
+    color: #ffffff;
+    opacity: 0.6;
+}
+#point .photo_line a {
+    color: #ffffff;
+
+}
+
+#point .photo_line .last {
+    margin-right: 0;
+}
+#point .photo_line .photo_block .point {
+    width: 162px;
+    border-bottom: 1px dotted #e4e5ea;
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    line-height: 1;
+}
+#point .photo_line .photo_block .point img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* 注文履歴画面
+ *************************************************/
+
+
+#history{
+    width: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+#history h2{
+    display: inline-block;
+    width: 100%;
+    border-bottom: solid 1px #e8e4d9;
+    margin: 0 0 20px auto;
+    text-align: left;
+}
+#history .message {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#history #searchArea{
+    width: 100%;
+}
+#history #searchArea table{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: left;
+    border-collapse: collapse;
+}
+#history #searchArea table th{
+    width: 200px;
+    height: 24px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: solid 1px #ffffff;
+    background-color: #eeeeee;
+    color: #555555;
+    font-size: 14px;
+}
+#history #searchArea table td{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+#history #searchArea input{
+    border: solid 1px #aaaaaa;
+}
+#history #searchArea textarea{
+    width: 500px;
+    border: solid 1px #aaaaaa;
+}
+#history #searchArea input[type=text]{
+    font-size: 14px;
+    height: 24px;
+    margin: 5px;
+}
+#history #searchArea .search_btns{
+    width: 400px;
+    margin: 0 auto;
+}
+#history #searchArea .search_btn{
+    float: left;
+    margin: 10px;
+}
+#history #searchArea .close_btn{
+    float: left;
+    margin: 10px;
+}
+#history #searchArea input[type=submit],
+#history #searchArea input[type=button],
+#history #searchArea input[type=reset]{
+    width: 166px;
+    height: 30px;
+    border: solid 1px #aaaaaa;
+}
+
+
+#history #resultArea{
+    width: 100%;
+    margin-top: 30px;
+
+}
+#history #resultArea .info{
+    width: 800px;
+    margin: 0 auto;
+}
+#history #resultArea .info .count{
+    width: 200px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+#history #resultArea .info .paging{
+    width: 200px;
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+}
+#history #resultArea table{
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    border-collapse: separate;
+}
+#history #resultArea tr:nth-child(odd){
+    background-color: #ffeeee;
+}
+#history #resultArea tr:nth-child(even){
+    background-color: #ffcccc;
+}
+
+#history #resultArea table th{
+    height: 24px;
+    padding: 10px;
+    text-align: left;
+    border: solid 1px #ffffff;
+    background-color: #eeeeee;
+    color: #555555;
+    font-size: 14px;
+}
+#history #resultArea table td{
+    border: solid 1px #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* 注文履歴詳細画面
+ *************************************************/
+
+
+#history{
+    width: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+#history h2{
+    display: inline-block;
+    width: 100%;
+    border-bottom: solid 1px #e8e4d9;
+    margin: 0 0 20px auto;
+    text-align: left;
+}
+#history .message {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#history #detailArea{
+    width: 100%;
+}
+#history #detailArea table{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: left;
+    border-collapse: collapse;
+}
+#history #detailArea table th{
+    width: 200px;
+    height: 24px;
+    padding: 10px;
+    text-align: left;
+    border: solid 1px #ffffff;
+    background-color: #eeeeee;
+    color: #555555;
+    font-size: 14px;
+}
+#history #detailArea table td{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    border: solid 1px #ffffff;
+}
+#history #detailArea .detail_btns{
+    width: 400px;
+    margin: 0 auto;
+}
+#history #detailArea table.goods{
+    margin: 0;
+}
+#history #detailArea table.goods th{
+    width: auto;
+    height: 24px;
+    padding: 10px;
+    text-align: left;
+    border: solid 1px #ffffff;
+    background-color: #eeeeee;
+    color: #555555;
+    font-size: 14px;
+}
+#history #detailArea table.goods td{
+    width: auto;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    border: solid 1px #ffffff;
+}
+#history #detailArea table.goods tr:nth-child(odd){
+    background-color: #ffeeee;
+}
+#history #detailArea table.goods tr:nth-child(even){
+    background-color: #ffcccc;
+}
+
+#history #detailArea input[type=button]{
+    width: 166px;
+    height: 30px;
+    border: solid 1px #aaaaaa;
+}
+
+.has-error {
+    border: 1px solid #ea4e21 !important;
+}
+
+.image-hover:hover {
+    border: 1px solid #A0A0A0 !important;
+    cursor: pointer;
+}
+
+.image-hover {
+    border: 1px solid #ccc;
+}
+
+.button-hover:hover {
+    opacity: 0.8;
+    -ms-filter: "alpha( opacity=80 )";
+    filter: alpha(opacity=80);
+    cursor: pointer;
+}
+
+.img-none-url {
+    border: none; 
+    background: #E1E1E1; 
+    padding: 0px;
+}
+
+/* css catalog pages*/
+.mb40 {
+    margin-bottom: 40px!important;
+}
+.mb70 {
+    margin-bottom: 70px!important;
+}
+#top dl,
+#top dt,
+#top dd {
+    margin: 0;
+    padding: 0;
+}
+#qanda {
+    text-align: left;
+    padding: 10px 0px 0px;
+}
+#qanda h2 {
+    border-left: 5px solid #9e2429;
+    padding: 6px 0 6px 8px;
+    font-size: 22px;
+}
+#qanda dl {
+    margin: 0px 0px 10px;
+}
+#qanda dt {
+    width: 35px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px 0;
+    font-size: 18px;
+    color: #fff;
+    float: left;
+}
+#qanda dt.q {
+    background: #112288;
+}
+#qanda dt.a {
+    background: #9e2429;
+}
+#qanda dd {
+    margin: 5px 0px 0px 10px;
+    float: left;
+    font-size: 16px;
+    width: 95%;
+}
+#catalog ul {
+    margin: 20px 0 0px;
+    text-align: left;
+}
+#catalog ul li {
+    display: inline-block;
+    background: url(../img/arrow.gif) no-repeat right center;
+    padding: 0 30px 0 25px;
+}
+#catalog ul li:last-child {
+    background: none;
+}
+#catalog #form_table table {
+    width: 70%;
+    margin: 50px auto 30px;
+    font-size: 16px;
+}
+#catalog #form_table table th {
+    width: 240px;
+    min-width: 240px;
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    background: #eee;
+}
+
+#catalog #form_table table th span {
+    color: red;
+    font-size: 14px;
+}
+
+#catalog #form_table table td {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    text-align: left;
+}
+
+#catalog #form_table input {
+    width: 98%;
+}
+
+#catalog #form_table table td.tel input, #catalog #form_table table td.postcode input {
+    font-size: 14px;
+    height: 24px;
+    width: 20%;
+}
+
+#catalog #form_table table td.postcode input#postcode1 {
+    width: 30%;
+}
+
+#catalog #form_table table td #last:last-child {
+    height: 120px;
+    width: 98%;
+}
+
+#catalog #form_table button {
+    background: #d2dfed;
+    background: -moz-linear-gradient(top, #cfa3a3, #790000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#cfa3a3), to(#790000));
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cfa3a3', endColorstr='#790000', GradientType=0);
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #cfa3a3), to( #790000));
+    /* Saf4+, Chrome */
+    
+    background-image: -webkit-linear-gradient( #cfa3a3, #790000);
+    /* Chrome 10+, Saf5.1+ */
+    
+    background-image: -moz-linear-gradient( #cfa3a3, #790000);
+    /* FF3.6 */
+    
+    background-image: -ms-linear-gradient( #cfa3a3, #790000);
+    /* IE10 */
+    
+    background-image: -o-linear-gradient( #cfa3a3, #790000);
+    /* Opera 11.10+ */
+    
+    background-image: linear-gradient( #aacfa3a3a, #790000);
+    border-radius: 10px;
+    width: 120px;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 0 30px;
+}
+
+#catalog #form_table button.go-back {
+    background: #17B717;
+    background: -moz-linear-gradient(top, #17B717, #0D870D);
+    background: -webkit-gradient(linear, left top, left bottom, from(#17B717), to(#0D870D));
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#17B717', endColorstr='#0D870D', GradientType=0);
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #17B717), to( #0D870D));
+    /* Saf4+, Chrome */
+    
+    background-image: -webkit-linear-gradient( #17B717, #0D870D);
+    /* Chrome 10+, Saf5.1+ */
+    
+    background-image: -moz-linear-gradient( #17B717, #0D870D);
+    /* FF3.6 */
+    
+    background-image: -ms-linear-gradient( #17B717, #0D870D);
+    /* IE10 */
+    
+    background-image: -o-linear-gradient( #17B717, #0D870D);
+    /* Opera 11.10+ */
+    
+    background-image: linear-gradient( #17B717, #0D870D);
+}
+
+#catalog #form_table p {
+    line-height: 1.5;
+    font-size: 14px;
+    margin: 0 0 30px;
+}
+
+#top a:hover,
+#catalog #form_table button:hover {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    opacity: 0.80;
+}
+#guide {
+    text-align: left;
+    margin: 0 0 50px;
+}
+#top h1 {
+    border-bottom: 3px solid #7c4f4f;
+    padding: 0 0 5px 5px;
+    font-size: 20px;
+    text-align: left;
+}
+#guide ul {
+    list-style: none;
+}
+#guide ul li {
+    float: left;
+}
+#guide ul li img {
+    width: 450px;
+}
+#guide ul li:last-child {
+    float: right;
+}
+#guide h3 {
+    border-top: 3px solid #7c4f4f;
+    background: #fceddd;
+    margin: 0 0 40px;
+}
+#guide h3 span {
+    border-top: 2px solid #fff;
+    display: block;
+    padding: 8px 0 8px 8px;
+    font-size: 18px;
+}
+#guide .col02 {
+    padding: 0 20px 60px;
+}
+#guide .col02 img {
+    float: left;
+}
+#guide .col02 dl {
+    float: right;
+    width: 530px;
+    margin: 10px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+#guide .col02 dt {
+    font-weight: bold;
+}
+#guide .col02 dd {
+    margin: 0 0 0 24px;
+}
+#yuizen_point {
+    color: #000!important;
+}
+#yuizen_point h1 {} #yuizen_point #btn {
+    text-align: center;
+    margin: 30px 0;
+}

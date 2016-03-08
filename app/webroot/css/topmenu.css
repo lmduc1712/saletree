@@ -1,0 +1,21 @@
+#menu {
+    display: block;
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+#menu li {
+    margin-bottom: 1em;
+}
+
+#submenu {
+    display: block;
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+#submenu li {
+    margin-left: -15px;
+    margin-top: -10px;
+    margin-bottom: 1em;
+}
